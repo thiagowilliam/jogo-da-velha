@@ -40,16 +40,6 @@ function App() {
 
   useEffect(() => {
     checkWinner();
-    // winningCombinations.forEach((combo) => {
-    //   const [a, b, c] = combo;
-    //   if (
-    //     gameData[a] !== 0 &&
-    //     gameData[a] === gameData[b] &&
-    //     gameData[b] === gameData[c]
-    //   ) {
-    //     seWinningCombo(combo)
-    //   }
-    // });
   }, [gameData]);
 
   const checkWinner = () => {
